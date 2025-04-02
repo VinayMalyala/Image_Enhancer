@@ -16,9 +16,7 @@ const Home = () => {
       const enhancedURL = await enhancedImageAPI(file);
       setEnhancedImage(enhancedURL);
       setLoading(false);
-      //* code which may produce error
     } catch (error) {
-      //* code to handle the error
       console.log(error);
       alert("Error while enhancing image. Please try again.");
       
@@ -27,10 +25,10 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <>
         <ImageUpload uploadImageHandler={uploadImageHandler} />
-        <ImagePreview loading={loading} uploaded={uploadImage} enhanced={enhancedImage} />
-    </div>
+        <ImagePreview loading={loading} uploaded={uploadImage} enhanced={enhancedImage?.image} />
+    </>
   )
 }
 
