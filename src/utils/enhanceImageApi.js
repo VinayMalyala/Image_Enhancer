@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_KEY = import.meta.env.REACT_APP_API_KEY;
+// const API_KEY = import.meta.env.REACT_APP_API_KEY;
+const API_KEY = "wxfpeuky6cdbbl7yr";
 console.log(API_KEY);
 
 const BASE_URL = "https://techhk.aoscdn.com/";
