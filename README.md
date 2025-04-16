@@ -2,6 +2,8 @@
 
 **Image Enhancer** is a React-based web application that automatically improves image quality by enhancing pixel clarity. It uses the **PicWish API** in the backend to process and enhance uploaded images efficiently and effectively.
 
+[Visit the website](image-enhancer-nine-mu.vercel.app)
+
 ---
 
 ## 🚀 Features
