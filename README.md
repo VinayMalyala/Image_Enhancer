@@ -1,12 +1,52 @@
-# React + Vite
+# 🖼️ Image Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Image Enhancer** is a React-based web application that automatically improves image quality by enhancing pixel clarity. It uses the **PicWish API** in the backend to process and enhance uploaded images efficiently and effectively.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📤 Upload any low-resolution or unclear image  
+- 🌟 Automatic enhancement using AI-based PicWish API  
+- ⚡ Fast and accurate enhancement results  
+- 🎨 Clean and responsive React UI  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+
+| Technology     | Purpose                          |
+|----------------|----------------------------------|
+| React JS       | Frontend UI                      |
+| PicWish API    | Image enhancement processing     |
+| HTML/CSS/JS    | UI Styling and Interactivity     |
+
+---
+
+## 🖥️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/VinayMalyala/image-enhancer.git
+   cd image-enhancer
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+
+4. Visit the app Open your browser at http://localhost:5173
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+Vinay Malyala - GitHub: @VinayMalyala
+
+## ⭐ Show Your Support
+If you found this useful, give it a ⭐ and share it with others!
+
+
